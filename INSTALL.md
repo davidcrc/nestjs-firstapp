@@ -13,3 +13,17 @@ create project
 ```bash
 nest new nestjs-firstapp
 ```
+
+# Create module, controller and service
+
+```bash
+nest generate module tasks
+```
+
+```bash
+nest generate controller tasks
+```
+
+```bash
+nest g service tasks
+```
