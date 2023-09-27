@@ -27,3 +27,13 @@ nest generate controller tasks
 ```bash
 nest g service tasks
 ```
+
+## Add UUID
+
+```bash
+pnpm i uuid
+```
+
+```bash
+pnpm i --save-dev @types/uuid
+```
