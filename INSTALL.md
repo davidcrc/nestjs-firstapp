@@ -37,3 +37,15 @@ pnpm i uuid
 ```bash
 pnpm i --save-dev @types/uuid
 ```
+
+## Add validator
+
+```bash
+pnpm i class-validator class-transformer
+```
+
+- add in main.ts
+
+```ts
+app.useGlobalPipes(new ValidationPipe());
+```
